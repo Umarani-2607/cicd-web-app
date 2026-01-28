@@ -1,0 +1,33 @@
+# CI/CD Web App
+
+A simple containerized web application built to demonstrate
+end-to-end CI/CD practices using Docker and GitHub Actions.
+
+---
+
+## What This Project Demonstrates
+
+- Building a lightweight web application using Python (Flask)
+- Containerizing an application using Docker
+- Automating builds with GitHub Actions (CI)
+- Continuous deployment to a cloud platform (Render)
+- GitHub-based workflow with automatic redeploys on push
+
+---
+
+## How It Works
+
+1. The Flask app serves a basic HTTP endpoint
+2. The application is packaged into a Docker image
+3. GitHub Actions automatically builds the image on every push
+4. Render deploys the latest version from the main branch
+5. The app is accessible via a public URL
+
+---
+
+## Tech Stack
+
+- Python (Flask)
+- Docker
+- GitHub Actions
+- Render
