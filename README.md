@@ -31,3 +31,24 @@ end-to-end CI/CD practices using Docker and GitHub Actions.
 - Docker
 - GitHub Actions
 - Render
+---
+
+## ☸️ Kubernetes Deployment
+
+This project was also deployed locally to Kubernetes to demonstrate
+container orchestration concepts and service exposure.
+
+### Kubernetes Components Used
+
+- **Deployment**
+  - Manages the application pod
+  - Ensures the desired number of replicas is running
+- **Service (NodePort)**
+  - Exposes the application outside the cluster
+  - Maps the container port to a host-accessible port
+
+### Deployment Steps
+
+```bash
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
