@@ -52,3 +52,9 @@ container orchestration concepts and service exposure.
 ```bash
 kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
+
+## Supporting Documentation
+
+- CI/CD details: `docs/cicd-pipeline.md`
+- Kubernetes deployment: `docs/kubernetes.md`
+- Helper scripts: `scripts/`
