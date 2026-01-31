@@ -1,3 +1,5 @@
+![CI](https://github.com/Umarani-2607/cicd-web-app/actions/workflows/docker-ci.yml/badge.svg)
+
 # CI/CD Web App
 
 A simple containerized web application built to demonstrate
